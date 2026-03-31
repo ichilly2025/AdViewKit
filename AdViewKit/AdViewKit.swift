@@ -143,7 +143,7 @@ public struct AdViewSwiftUI: View {
     }
     
     public var body: some View {
-        Group {
+        ZStack {
             if let image = image {
                 Image(uiImage: image)
                     .resizable()
